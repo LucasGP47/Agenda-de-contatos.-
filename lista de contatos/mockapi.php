@@ -80,7 +80,7 @@ function SalvaDados($id, $nome, $email, $ano, $parente, $sexo){
 
 
 function inserir($dados){
-    $arquivo = fopen('dados.json','w+');
+    $arquivo = fopen('dados.json','a+');
     fwrite($arquivo,json_encode($dados));
     fclose($arquivo);
 }
