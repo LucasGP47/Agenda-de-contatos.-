@@ -13,7 +13,7 @@
     <h1>Lista de contatos</h1>
     <nav>
         <ul class="MainMenu">
-            <li id="cadastrar" class="itemenu"><a href="acao.php">Cadastrar</a></li>
+            <li id="cadastrar" class="itemenu"><a href="PaginaInicial.php">Cadastrar</a></li>
         </ul>
     </nav>
 
